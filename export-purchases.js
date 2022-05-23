@@ -46,6 +46,8 @@ const getPurchase = (cursor, userid, cookie) => {
                             return console.log(`COULD NOT SAVE TO CSV: ${err}`)
                         }
 
+                        console.log("Successfully exported your purchases!")
+
                     })
 
 

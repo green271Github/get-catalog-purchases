@@ -17,7 +17,7 @@ const getPurchase = (cursor, userid, cookie) => {
 
                 csv.push({
                     "name": purchase.details.name,
-                    "id": purchase.id,
+                    "id": purchase.details.id,
                     "amount": Math.abs(purchase.currency.amount),
                     "currency": purchase.currency.type,
                     "type": purchase.details.type,

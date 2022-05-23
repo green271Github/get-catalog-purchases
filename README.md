@@ -10,4 +10,7 @@
 1. Download the files.
 2. Navigate to the directory where you downloaded them, open a command prompt.
 3. Install the packages with the following command: `npm i axios npm i json-2-csv npm i prompts`.
-4. Run the script with the following command: `node export-purchases.js`
+4. Run the script with the following command: `node export-purchases.js`.
+
+# Caveats
+* You will have to enter your UserId and .ROBLOSECURITY Cookie
